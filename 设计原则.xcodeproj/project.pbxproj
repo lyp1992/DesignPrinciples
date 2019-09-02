@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9939EB8F23196E2B003D8C00 /* YPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9939EB8A23196A6E003D8C00 /* YPPerson.m */; };
+		9939EB9023196E2B003D8C00 /* YPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9939EB8D23196A87003D8C00 /* YPStudent.m */; };
+		99B3D2C2231BAFC4003E8C14 /* BridgeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2C1231BAFC4003E8C14 /* BridgeDemo.m */; };
+		99B3D2C5231BAFD3003E8C14 /* BaseClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2C4231BAFD3003E8C14 /* BaseClassA.m */; };
+		99B3D2C8231BAFF6003E8C14 /* BaseClassAOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2C7231BAFF6003E8C14 /* BaseClassAOne.m */; };
+		99B3D2CB231BB00B003E8C14 /* BaseClassATwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2CA231BB00B003E8C14 /* BaseClassATwo.m */; };
+		99B3D2CE231BB02B003E8C14 /* BaseClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2CD231BB02B003E8C14 /* BaseClassB.m */; };
+		99B3D2D1231BB040003E8C14 /* BaseClassBOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2D0231BB040003E8C14 /* BaseClassBOne.m */; };
+		99B3D2D4231BB052003E8C14 /* BaseClassBTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2D3231BB052003E8C14 /* BaseClassBTwo.m */; };
+		99B3D2DA231BBC35003E8C14 /* YPInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2D9231BBC35003E8C14 /* YPInstance.m */; };
+		99B3D2DE231BC7D0003E8C14 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2DD231BC7D0003E8C14 /* Command.m */; };
+		99B3D2E1231BC91A003E8C14 /* CommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B3D2E0231BC91A003E8C14 /* CommandManager.m */; };
 		99DD7D3123191F8200050A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD7D3023191F8200050A64 /* AppDelegate.m */; };
 		99DD7D3423191F8200050A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD7D3323191F8200050A64 /* ViewController.m */; };
 		99DD7D3723191F8200050A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DD7D3523191F8200050A64 /* Main.storyboard */; };
@@ -18,6 +30,14 @@
 		99DD7D6423191FD400050A64 /* Monther.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD7D6323191FD400050A64 /* Monther.m */; };
 		99DD7D672319205D00050A64 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD7D662319205D00050A64 /* Book.m */; };
 		99DD7D6A2319215D00050A64 /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD7D692319215D00050A64 /* Paper.m */; };
+		99DDBFBF231A903000BD5C36 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFBE231A903000BD5C36 /* Animal.m */; };
+		99DDBFC3231A987200BD5C36 /* AParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFC2231A987200BD5C36 /* AParent.m */; };
+		99DDBFC6231A998D00BD5C36 /* BSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFC5231A998D00BD5C36 /* BSon.m */; };
+		99DDBFCA231A9D1300BD5C36 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFC9231A9D1300BD5C36 /* ClassA.m */; };
+		99DDBFCD231A9D1C00BD5C36 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFCC231A9D1C00BD5C36 /* ClassB.m */; };
+		99DDBFD0231A9D2500BD5C36 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFCF231A9D2500BD5C36 /* ClassC.m */; };
+		99DDBFD4231A9E6100BD5C36 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFD3231A9E6100BD5C36 /* School.m */; };
+		99DDBFDA231A9E8800BD5C36 /* YPClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDBFD9231A9E8800BD5C36 /* YPClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +58,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9939EB8923196A6E003D8C00 /* YPPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPPerson.h; sourceTree = "<group>"; };
+		9939EB8A23196A6E003D8C00 /* YPPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YPPerson.m; path = "设计原则Tests/YPPerson.m"; sourceTree = SOURCE_ROOT; };
+		9939EB8C23196A87003D8C00 /* YPStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPStudent.h; sourceTree = "<group>"; };
+		9939EB8D23196A87003D8C00 /* YPStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YPStudent.m; path = "设计原则Tests/YPStudent.m"; sourceTree = SOURCE_ROOT; };
+		99B3D2C0231BAFC4003E8C14 /* BridgeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeDemo.h; sourceTree = "<group>"; };
+		99B3D2C1231BAFC4003E8C14 /* BridgeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeDemo.m; sourceTree = "<group>"; };
+		99B3D2C3231BAFD3003E8C14 /* BaseClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassA.h; sourceTree = "<group>"; };
+		99B3D2C4231BAFD3003E8C14 /* BaseClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassA.m; sourceTree = "<group>"; };
+		99B3D2C6231BAFF6003E8C14 /* BaseClassAOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassAOne.h; sourceTree = "<group>"; };
+		99B3D2C7231BAFF6003E8C14 /* BaseClassAOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassAOne.m; sourceTree = "<group>"; };
+		99B3D2C9231BB00B003E8C14 /* BaseClassATwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassATwo.h; sourceTree = "<group>"; };
+		99B3D2CA231BB00B003E8C14 /* BaseClassATwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassATwo.m; sourceTree = "<group>"; };
+		99B3D2CC231BB02B003E8C14 /* BaseClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassB.h; sourceTree = "<group>"; };
+		99B3D2CD231BB02B003E8C14 /* BaseClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassB.m; sourceTree = "<group>"; };
+		99B3D2CF231BB040003E8C14 /* BaseClassBOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassBOne.h; sourceTree = "<group>"; };
+		99B3D2D0231BB040003E8C14 /* BaseClassBOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassBOne.m; sourceTree = "<group>"; };
+		99B3D2D2231BB052003E8C14 /* BaseClassBTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassBTwo.h; sourceTree = "<group>"; };
+		99B3D2D3231BB052003E8C14 /* BaseClassBTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassBTwo.m; sourceTree = "<group>"; };
+		99B3D2D8231BBC35003E8C14 /* YPInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPInstance.h; sourceTree = "<group>"; };
+		99B3D2D9231BBC35003E8C14 /* YPInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPInstance.m; sourceTree = "<group>"; };
+		99B3D2DC231BC7D0003E8C14 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		99B3D2DD231BC7D0003E8C14 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		99B3D2DF231BC91A003E8C14 /* CommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
+		99B3D2E0231BC91A003E8C14 /* CommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandManager.m; sourceTree = "<group>"; };
 		99DD7D2C23191F8200050A64 /* 设计原则.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计原则.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DD7D2F23191F8200050A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99DD7D3023191F8200050A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +105,22 @@
 		99DD7D682319215D00050A64 /* Paper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
 		99DD7D692319215D00050A64 /* Paper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
 		99DD7D6B2319220A00050A64 /* ContentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentProtocol.h; sourceTree = "<group>"; };
+		99DDBFBD231A903000BD5C36 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		99DDBFBE231A903000BD5C36 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		99DDBFC1231A987200BD5C36 /* AParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AParent.h; sourceTree = "<group>"; };
+		99DDBFC2231A987200BD5C36 /* AParent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AParent.m; sourceTree = "<group>"; };
+		99DDBFC4231A998D00BD5C36 /* BSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSon.h; sourceTree = "<group>"; };
+		99DDBFC5231A998D00BD5C36 /* BSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSon.m; sourceTree = "<group>"; };
+		99DDBFC8231A9D1300BD5C36 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		99DDBFC9231A9D1300BD5C36 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		99DDBFCB231A9D1C00BD5C36 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		99DDBFCC231A9D1C00BD5C36 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		99DDBFCE231A9D2500BD5C36 /* ClassC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
+		99DDBFCF231A9D2500BD5C36 /* ClassC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+		99DDBFD2231A9E6100BD5C36 /* School.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		99DDBFD3231A9E6100BD5C36 /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		99DDBFD8231A9E8800BD5C36 /* YPClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPClass.h; sourceTree = "<group>"; };
+		99DDBFD9231A9E8800BD5C36 /* YPClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +148,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99B3D2BE231BAF9C003E8C14 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				99B3D2DB231BBDA6003E8C14 /* 命令模式 */,
+				99B3D2D7231BBB6E003E8C14 /* 单例模式 */,
+				99B3D2D6231BB90E003E8C14 /* 适配器模式 */,
+				99B3D2D5231BB311003E8C14 /* 责任链模式 */,
+				99B3D2BF231BAFA4003E8C14 /* 桥接模式 */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		99B3D2BF231BAFA4003E8C14 /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				99B3D2C0231BAFC4003E8C14 /* BridgeDemo.h */,
+				99B3D2C1231BAFC4003E8C14 /* BridgeDemo.m */,
+				99B3D2C3231BAFD3003E8C14 /* BaseClassA.h */,
+				99B3D2C4231BAFD3003E8C14 /* BaseClassA.m */,
+				99B3D2C6231BAFF6003E8C14 /* BaseClassAOne.h */,
+				99B3D2C7231BAFF6003E8C14 /* BaseClassAOne.m */,
+				99B3D2C9231BB00B003E8C14 /* BaseClassATwo.h */,
+				99B3D2CA231BB00B003E8C14 /* BaseClassATwo.m */,
+				99B3D2CC231BB02B003E8C14 /* BaseClassB.h */,
+				99B3D2CD231BB02B003E8C14 /* BaseClassB.m */,
+				99B3D2CF231BB040003E8C14 /* BaseClassBOne.h */,
+				99B3D2D0231BB040003E8C14 /* BaseClassBOne.m */,
+				99B3D2D2231BB052003E8C14 /* BaseClassBTwo.h */,
+				99B3D2D3231BB052003E8C14 /* BaseClassBTwo.m */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		99B3D2D5231BB311003E8C14 /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
+		99B3D2D6231BB90E003E8C14 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		99B3D2D7231BBB6E003E8C14 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				99B3D2D8231BBC35003E8C14 /* YPInstance.h */,
+				99B3D2D9231BBC35003E8C14 /* YPInstance.m */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		99B3D2DB231BBDA6003E8C14 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				99B3D2DC231BC7D0003E8C14 /* Command.h */,
+				99B3D2DD231BC7D0003E8C14 /* Command.m */,
+				99B3D2DF231BC91A003E8C14 /* CommandManager.h */,
+				99B3D2E0231BC91A003E8C14 /* CommandManager.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		99B3D2E2231BCDD0003E8C14 /* 框架 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "框架";
+			sourceTree = "<group>";
+		};
 		99DD7D2323191F8200050A64 = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +245,22 @@
 		99DD7D2E23191F8200050A64 /* 设计原则 */ = {
 			isa = PBXGroup;
 			children = (
+				99B3D2E2231BCDD0003E8C14 /* 框架 */,
+				99B3D2BE231BAF9C003E8C14 /* 设计模式 */,
+				99DDBFD1231A9E4000BD5C36 /* 迪米特原则 */,
+				99DDBFC7231A9C0C00BD5C36 /* 接口隔离原则 */,
+				99DDBFC0231A978300BD5C36 /* 理氏替换原则 */,
+				99DDBFBC231A8BE600BD5C36 /* 单一职责 */,
 				99DD7D6123191F9700050A64 /* 依赖倒置原则 */,
 				99DD7D2F23191F8200050A64 /* AppDelegate.h */,
 				99DD7D3023191F8200050A64 /* AppDelegate.m */,
 				99DD7D3223191F8200050A64 /* ViewController.h */,
 				99DD7D3323191F8200050A64 /* ViewController.m */,
 				99DD7D3523191F8200050A64 /* Main.storyboard */,
+				9939EB8923196A6E003D8C00 /* YPPerson.h */,
+				9939EB8A23196A6E003D8C00 /* YPPerson.m */,
+				9939EB8C23196A87003D8C00 /* YPStudent.h */,
+				9939EB8D23196A87003D8C00 /* YPStudent.m */,
 				99DD7D3823191F8400050A64 /* Assets.xcassets */,
 				99DD7D3A23191F8400050A64 /* LaunchScreen.storyboard */,
 				99DD7D3D23191F8400050A64 /* Info.plist */,
@@ -155,6 +299,50 @@
 				99DD7D692319215D00050A64 /* Paper.m */,
 			);
 			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		99DDBFBC231A8BE600BD5C36 /* 单一职责 */ = {
+			isa = PBXGroup;
+			children = (
+				99DDBFBD231A903000BD5C36 /* Animal.h */,
+				99DDBFBE231A903000BD5C36 /* Animal.m */,
+			);
+			path = "单一职责";
+			sourceTree = "<group>";
+		};
+		99DDBFC0231A978300BD5C36 /* 理氏替换原则 */ = {
+			isa = PBXGroup;
+			children = (
+				99DDBFC1231A987200BD5C36 /* AParent.h */,
+				99DDBFC2231A987200BD5C36 /* AParent.m */,
+				99DDBFC4231A998D00BD5C36 /* BSon.h */,
+				99DDBFC5231A998D00BD5C36 /* BSon.m */,
+			);
+			path = "理氏替换原则";
+			sourceTree = "<group>";
+		};
+		99DDBFC7231A9C0C00BD5C36 /* 接口隔离原则 */ = {
+			isa = PBXGroup;
+			children = (
+				99DDBFC8231A9D1300BD5C36 /* ClassA.h */,
+				99DDBFC9231A9D1300BD5C36 /* ClassA.m */,
+				99DDBFCB231A9D1C00BD5C36 /* ClassB.h */,
+				99DDBFCC231A9D1C00BD5C36 /* ClassB.m */,
+				99DDBFCE231A9D2500BD5C36 /* ClassC.h */,
+				99DDBFCF231A9D2500BD5C36 /* ClassC.m */,
+			);
+			path = "接口隔离原则";
+			sourceTree = "<group>";
+		};
+		99DDBFD1231A9E4000BD5C36 /* 迪米特原则 */ = {
+			isa = PBXGroup;
+			children = (
+				99DDBFD2231A9E6100BD5C36 /* School.h */,
+				99DDBFD3231A9E6100BD5C36 /* School.m */,
+				99DDBFD8231A9E8800BD5C36 /* YPClass.h */,
+				99DDBFD9231A9E8800BD5C36 /* YPClass.m */,
+			);
+			path = "迪米特原则";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +476,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DD7D6A2319215D00050A64 /* Paper.m in Sources */,
+				99DDBFC3231A987200BD5C36 /* AParent.m in Sources */,
 				99DD7D672319205D00050A64 /* Book.m in Sources */,
 				99DD7D3423191F8200050A64 /* ViewController.m in Sources */,
+				99B3D2C2231BAFC4003E8C14 /* BridgeDemo.m in Sources */,
+				99B3D2DA231BBC35003E8C14 /* YPInstance.m in Sources */,
 				99DD7D6423191FD400050A64 /* Monther.m in Sources */,
+				9939EB8F23196E2B003D8C00 /* YPPerson.m in Sources */,
+				99DDBFDA231A9E8800BD5C36 /* YPClass.m in Sources */,
 				99DD7D3F23191F8400050A64 /* main.m in Sources */,
+				99DDBFC6231A998D00BD5C36 /* BSon.m in Sources */,
+				99B3D2CE231BB02B003E8C14 /* BaseClassB.m in Sources */,
+				99B3D2D1231BB040003E8C14 /* BaseClassBOne.m in Sources */,
+				99DDBFBF231A903000BD5C36 /* Animal.m in Sources */,
+				99B3D2C5231BAFD3003E8C14 /* BaseClassA.m in Sources */,
+				9939EB9023196E2B003D8C00 /* YPStudent.m in Sources */,
+				99DDBFD0231A9D2500BD5C36 /* ClassC.m in Sources */,
+				99B3D2E1231BC91A003E8C14 /* CommandManager.m in Sources */,
+				99B3D2D4231BB052003E8C14 /* BaseClassBTwo.m in Sources */,
+				99B3D2CB231BB00B003E8C14 /* BaseClassATwo.m in Sources */,
+				99B3D2DE231BC7D0003E8C14 /* Command.m in Sources */,
+				99DDBFD4231A9E6100BD5C36 /* School.m in Sources */,
+				99DDBFCA231A9D1300BD5C36 /* ClassA.m in Sources */,
+				99B3D2C8231BAFF6003E8C14 /* BaseClassAOne.m in Sources */,
+				99DDBFCD231A9D1C00BD5C36 /* ClassB.m in Sources */,
 				99DD7D3123191F8200050A64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
